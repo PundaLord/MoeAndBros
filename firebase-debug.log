@@ -1,0 +1,48 @@
+[debug] [2021-04-15T06:45:59.000Z] ----------------------------------------------------------------------
+[debug] [2021-04-15T06:45:59.002Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Omar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-04-15T06:45:59.002Z] CLI Version:   9.10.0
+[debug] [2021-04-15T06:45:59.002Z] Platform:      win32
+[debug] [2021-04-15T06:45:59.003Z] Node Version:  v15.14.0
+[debug] [2021-04-15T06:45:59.003Z] Time:          Thu Apr 15 2021 03:45:59 GMT-0300 (GMT-03:00)
+[debug] [2021-04-15T06:45:59.003Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-15T06:45:59.008Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-15T06:45:59.008Z] > authorizing via signed-in user (sebasgamer201@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Omar\Desktop\Moe & bros
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-04-15T06:46:07.758Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-04-15T06:46:08.154Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-04-15T06:46:08.154Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project moeandbros-48ef4 (MoeAndBros) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-04-15T06:46:36.983Z] Error: EINVAL: invalid argument, mkdir 'C:\Users\Omar\Desktop\Moe & bros\"C:\Users\Omar\Desktop\Moe & bros\Public"'
+    at Object.mkdirSync (node:fs:1023:3)
+    at Object.mkdirsSync (C:\Users\Omar\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:22:9)
+    at Object.createFileSync (C:\Users\Omar\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:31:11)
+    at Config.writeProjectFile (C:\Users\Omar\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:155:8)
+    at C:\Users\Omar\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:174:18
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+[error] 
+[error] Error: An unexpected error has occurred.
